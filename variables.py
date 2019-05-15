@@ -8,7 +8,7 @@ n = 17 # an integer assignment
 
 76name = 'John Doe' # This is an ivalid syntax
 more@ = 'python' # this is an ivalid syntax
-True = 'Yes' # True is a reversed keyword
+True = 'Yes' # invalid syntax as True is a reversed keyword
 fname lname = 'Michael Jordan' # invalid syntax
 
 '''
