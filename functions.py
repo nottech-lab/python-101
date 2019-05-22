@@ -11,4 +11,8 @@ def fibonacci(n):
         return fibonacci(n-1) + fibonacci(n-2)
 
 
+<<<<<<< HEAD
 print(fibonacci(8))
+=======
+print(fibonacci(8))
+>>>>>>> 3a24ca06b03f1a38019bdaac5a3aabeb68e1e150
