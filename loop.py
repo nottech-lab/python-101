@@ -1,67 +1,58 @@
-#if statement
-# If the number is positive, we print an appropriate message
+#for loop
 
-num = 3
-if num > 0:
-    print(num, "is a positive number.")
-print("This is always printed.")
+# List of numbers
+numbers = [6, 5, 3, 8, 4, 2, 5, 4, 11]
 
-num = -1
-if num > 0:
-    print(num, "is a positive number.")
-print("This is also always printed.")
+# variable to store the sum
+sum = 0
 
-#if else statement
+# iterate over the list
+for val in numbers:
+	sum = sum+val
 
-# Program checks if the number is positive or negative
-# And displays an appropriate message
+# Output: The sum is 48
+print("The sum is", sum)
 
-num = 3
+#for loop with else
 
-# Try these two variations as well. 
-# num = -5
-# num = 0
+digits = [0, 1, 5]
 
-if num >= 0:
-    print("Positive or Zero")
+for i in digits:
+    print(i)
 else:
-    print("Negative number")
+    print("No items left.")
 
-    #if...elif...else Statement
 
-    # In this program, 
-# we check if the number is positive or
-# negative or zero and 
-# display an appropriate message
+    #while loop
+    # Program to add natural
+# numbers upto 
+# sum = 1+2+3+...+n
 
-num = 3.4
+# To take input from the user,
+# n = int(input("Enter n: "))
 
-# Try these two variations as well:
-# num = 0
-# num = -4.5
+n = 10
 
-if num > 0:
-    print("Positive number")
-elif num == 0:
-    print("Zero")
+# initialize sum and counter
+sum = 0
+i = 1
+
+while i <= n:
+    sum = sum + i
+    i = i+1    # update counter
+
+# print the sum
+print("The sum is", sum)
+
+#while loop with else
+# Example to illustrate
+# the use of else statement
+# with the while loop
+
+counter = 0
+
+while counter < 3:
+    print("Inside loop")
+    counter = counter + 1
 else:
-    print("Negative number")
-
-
-
-    #Nested if statements
-
-    # In this program, we input a number
-# check if the number is positive or
-# negative or zero and display
-# an appropriate message
-# This time we use nested if
-
-num = float(input("Enter a number: "))
-if num >= 0:
-    if num == 0:
-        print("Zero")
-    else:
-        print("Positive number")
-else:
-    print("Negative number")
+    print("Inside else")
