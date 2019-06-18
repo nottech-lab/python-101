@@ -1,7 +1,7 @@
 # Python program to demonstrate differences 
 # between normal and frozen set 
 
-# Same as {"a", "b","c"} 
+# Same as {"yeuni", "john","Asha"} 
 normal_set = set(["yeuni", "john","Asha"]) 
 
 # Adding an element to normal set is fine 
