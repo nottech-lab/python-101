@@ -1,7 +1,7 @@
 '''
 Write a simple script that demonstrate your understanding of loops in python   
 '''
-#Printing NOTTECH LAB to infinite
+#Printing NOTTECH LAB to infinite Loop
 while(True):
     print("NOTTECH LAB")
 
