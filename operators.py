@@ -31,7 +31,7 @@ watches /= 10                                        #Same as: watches = watches
 
 
 #3.Comparison operators
-x == y
-x != y
-x  > y
-x <= y
+m == n                                              #checking if m equals n
+m != n                                              #checking if m is not equal to n
+m  > n                                              #checking if m is greater than n
+m <= n                                              #checking if m is less or equal to n
