@@ -23,15 +23,20 @@ remainder = available_money % total_cost                             #modulus,[r
 watches_i_can_buy = available_money // single_watch_cost             #floor division,[watches_i_can_buy is 2]
 
 #2.Assignment operators
-watches =  20                                        #Assigning 20 to watches
-watches += 5                                         #Same as: watches = watches + 5
-watches -= 5                                         #Same as: watches = watches - 5
-watches *= 10                                        #Same as: watches = watches * 10
-watches /= 10                                        #Same as: watches = watches / 10
+watches_i_want =  20                                        #Assigning 20 to watches
+watches_i_want += 5                                         #Same as: watches_i_want =watches_i_want + 5
+watches_i_want -= 5                                         #Same as: watches_i_want = watches_i_want- 5
+watches_i_want *= 10                                        #Same as: watches_i_want= watches_i_want * 10
+watches_i_want /= 10                                        #Same as: watches_i_want = watches_i_want / 10
 
 
 #3.Comparison operators
 m == n                                              #checking if m equals n
 m != n                                              #checking if m is not equal to n
 m  > n                                              #checking if m is greater than n
-m <= n                                              #checking if m is less or equal to n
+m <= n                                              #checking if m  is less or equal to n
+
+#4.Logical operators
+available_watches < 10  and   watches_i_can_buy >10       #use of "and",returns TRUE if both are correct
+available_watches < 5 or available_money > 50000          #use of "or",returns TRUE if one is correct
+not(watches_i_want >10  and watches_i_can_buy < 7)                                     #reverses the answer
