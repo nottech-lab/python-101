@@ -11,4 +11,4 @@ a,b,c = 1,2,"nottech"             #Valid variable declaration
 __var2 = 5                        #Valid strong private identifier __var2 assigned a value
 print(var1)                       #Printing var1
 print(a + b + c)                  #Printing the value of a,b and c
-del var1                          #del deletes the var1 stored in memory
+del var1                          #del deletes the var1 stored in memory.
