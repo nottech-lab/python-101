@@ -31,12 +31,17 @@ watches_i_want /= 10                                        #Same as: watches_i_
 
 
 #3.Comparison operators
-m == n                                              #checking if m equals n
-m != n                                              #checking if m is not equal to n
-m  > n                                              #checking if m is greater than n
-m <= n                                              #checking if m  is less or equal to n
+watches_i_want == watches_i_want                    #checking if  watches_i_want equals watches_i_want 
+watches_i_want != watches_i_want                    #checking if watches_i_want is not equal watches_i_want 
+watches_i_want > watches_i_want                     #checking if watches_i_want is greator than watches_i_want 
+watches_i_want > watches_i_want                     #checking if watches_i_want is greator than watches_i_want 
+watches_i_want <= watches_i_want                    #checking if watches_i_want less or equal watches_i_want 
 
 #4.Logical operators
 available_watches < 10  and   watches_i_can_buy >10       #use of "and",returns TRUE if both are correct
 available_watches < 5 or available_money > 50000          #use of "or",returns TRUE if one is correct
-not(watches_i_want >10  and watches_i_can_buy < 7)                                     #reverses the answer
+not(watches_i_want >10  and watches_i_can_buy < 7)        #use of "not" reverses the answer
+
+#5.Identity operators
+single_watch_cost is parking_cost                         #returns True the two variables are same object
+single_watch_cost is not parking_cost                     #returns True if the two variables are different objects
