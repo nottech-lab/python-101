@@ -18,4 +18,4 @@ if x in list_:
 elif x not in list_:
     print('x is not found in list')
 else:
-    print('Choose again')    
+    print('Choose again')   
