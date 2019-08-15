@@ -29,7 +29,7 @@ print('Z is:', z)
 
 #Python Comparison Operators
 
-if x >= y:                #If values not equal prints true similar to != 
+if x >= y:                #If values not equal prints true similar to != .
      print('x is equal to y')
 else:
      print('x is not equal to y')
