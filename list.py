@@ -12,7 +12,7 @@ print(list1)
 list1.remove('abdc')  #Remove abdc from list
 print(list1)
 
-list1.append('xyz') #Append value to the list
+list1.append('xyz') #Append value to the list.
 print(list1)
 
 list2 = [8,6,9,10,22,4,1,3,2,5]
