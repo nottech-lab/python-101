@@ -11,7 +11,7 @@ def factorial(num):                            #Function initialization
 
 print('The factorial of %d is %d' % (num, factorial(num)))    #Function calling
 
-sum = lambda arg1, arg2: arg1 + arg2     #Using lambda
+sum = lambda arg1, arg2: arg1 + arg2     #Using lambda.
 print("SUM=", sum(10,20))
 
 def addition(num1,num2):
