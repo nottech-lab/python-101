@@ -9,4 +9,4 @@ print(tinydict.values())  #This prints all values
 
 print(tinydict['name'])  #Print value for name key
 
-print(len(tinydict))     #Print the length of dictionary
+print(len(tinydict))     #Print the length of dictionary.
