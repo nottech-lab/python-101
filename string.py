@@ -19,27 +19,27 @@ print(len(motd))                                   #returns the length of the st
 #returns 36
                                                     
 
-print(motd.lower())                       #returns the str in lower cases,
+print(motd.lower())                                #returns the str in lower cases,
 #"take it from me,being alive is lucky"
                                                   
 
-print(motd.upper())                       #returns the str in upper cases,
+print(motd.upper())                                 #returns the str in upper cases,
 #"TAKE IT FROM ME,BEING ALIVE IS LUCKY"
                                                    
 
 
-print(motd.replace("me", "Karage"))       #returns a str where me is replaced by Karage,
+print(motd.replace("me", "Karage"))                  #returns a str where me is replaced by Karage,
 #"Take it from Karage,being alive is lucky"
                                                    
 
-print(motd.split(","))                    #returns a list of substrings separated by,
+print(motd.split(","))                               #returns a list of substrings separated by,
 #['Take it from me', 'being alive is lucky']
 
                                                     
 
-print(motd.capitalize())                  #Capitalizes the first character and lowercases all others,
+print(motd.capitalize())                             #Capitalizes the first character and lowercases all others,
 #"Take it from me,being alive is lucky"
                                                      
 
-print(motd.swapcase())                             #Swaps case of each charcter
+print(motd.swapcase())                               #Swaps case of each charcter
 #"tAKE IT FROM ME,BEING ALIVE IS LUCKY"
