@@ -17,4 +17,4 @@ print(stri.upper())         #Converts the string to uppercases
 print(stri.replace("developer", "Programmer"))  #Replace the first word with the second
 
 var = "12!# 34ABC"
-print(var.isalpha())        #Print true if string is alphanumeric
+print(var.isalpha())        #Print true if string is alphanumeric.
