@@ -7,5 +7,5 @@ string = "personal information"
 float = 3.14
 
 print (interger)
-print ("string")
+print (string)
 print (float)
