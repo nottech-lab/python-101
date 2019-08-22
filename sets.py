@@ -1,6 +1,7 @@
 '''
 Write a simple script to demonstrate your understanding of sets as data types 
 '''
+
 #A set is a collection which is unordered and unindexed.
 vendor_set ={"Cisco","HPE/Aruba","Juniper","Huawei","Arista"}
 
@@ -28,3 +29,4 @@ vendor_set.clear()
 
 #deleting the set
 del(vendor_set)
+
