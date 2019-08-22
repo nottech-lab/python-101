@@ -10,7 +10,7 @@ for fruit in fruits:
 
 print("")
 print("")
-print('Is Rabbit in the set of animals? ','rabbit' in fruits)
+print('Is Banana in the set of fruits? ','banana' in fruits)
 
 #updating the set
 
