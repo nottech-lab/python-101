@@ -4,52 +4,51 @@ Write code exampled with comments that demonstrates your understanging of date a
 '''
     # DATE AND TIME.
 
-    import datetime
+    import time # time module
+    
+    print(time.time()) # returns current time stamp i.e numbers of seconds between january up to current time second.
 
-    dt = datetime.datetime.strptime("2019-04-15T08:27:18-0500", "%Y-%m-%dT%H:%M:%S%z")
-    print(dt)
-    from datetime import datetime, timedelta, timezone
+    print(time.localtime()) # gives the tuple representation of number of seconds returned by time function.
+
+    print(time.asctime()) # gives the string representation of tuple returned by localtime function.
+
+    time.sleep(6) # delays execution to 6 seconds.
+    print("Python") # it can gives the word 'Python' after 6 seconds.
     
-    JST = timezone(timedelta(hours=+9))
-    dt = datetime(2019, 1, 1, 12, 0, 0, tzinfo=JST)
-    print(dt)
-    # 2019-01-01 12:00:00+09:00
-    print(dt.tzname())
-    # UTC+09:00
-    dt = datetime(2019, 1, 1, 12, 0, 0, tzinfo=timezone(timedelta(hours=9), 'JST'))
-    print(dt.tzname)
-    # 'JST'
+    import datetime
+    from datetime import date, timedelta
+
+    # creating a date
+    d = datetime.date(2019,8,29)
+    print(d)
+
+    # today local time
+    tday = datetime.date.today()
+    print(tday)
     
-    #  Subtracting months from a date accurately.
+    print(tday.year) # it gives only a year.
     
-    import calendar
+    print(tday.day) # it gives only a day.
+
+    print(tday.month) # it gives only a month.
     
-    from datetime import date
+    print(tday.weekday) # it gives the day of the week starting monday as 0 and sunday as 6.
+
+    print(tday.isoweekday) # it gives day of the week starting monday as 1 and sunday as 7.
     
-    def monthdelta(date, delta):
-        m, y = (date.month+delta) % 12, date.year + ((date.month)+delta-1) // 12
-        if not m:
-            m = 12
-        d= min(date.day, calendar.monthrange(y, m)[1])
-        return date.replace(day=d,month=m, year=y)
-    next_month = monthdelta(date.today(), 1) #datetime.date(2016, 10, 23)
+    tdelta = datetime.timedelta(day=7) # creating a timedelta one week away.
+    print(tday+ tdelta) # gives the day after on week from current day.
+
+    print(tday-tdelta) # gives the day one week ago.
+
+    import calendar # import the calendar modele.
     
-    # Date Formatting.
-    # Time between two date-times
-    
-    from datetime import datetime
-    a = datetime(2019,10,6,0,0,0)
-    b = datetime(2019,10,1,23,59,59)
-    a-b
-    (a-b).days
-    (a-b).total_seconds()
-    
-    # Parsing string to datetime object
-    
-    
-    from datetime import datetime
-    datetime_string = 'Aug 11 2019, 00:00:00'
-    datetime_string_format = '%b %d %Y, %H:%M:%S'
-    datetime.strptime(datetime_string, datetime_string_format)
-    # datetime.datetime(2019, 10, 1, 0, 0)
+    print(calendar.month(2019, 8)) # gives the calendar of August.
+    # month function takes 2 arquements to specify year and month.
+
+    print(calendar.calender(2019, 3, 1, 10)) # calendar of the whole year
+    # calendar function takes four arguements, year to specify year, maximum width a date occupy, length as the step between each week, and space between each column. 
+
+    print(calender.isleap(2019)) # returns false since 2019 is not a leap year.
+
     
