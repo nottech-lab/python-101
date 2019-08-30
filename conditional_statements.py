@@ -17,7 +17,7 @@ else:
     print("I will take a shoe")
 
 #using or
-if watch_price = shoe_price or football_jersey <40000:
+if watch_price == shoe_price or football_jersey <40000:
     print("I can afford both of them")
 
 elif watch_price >football_jersey:
