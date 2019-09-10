@@ -4,7 +4,7 @@ Write a simple script that demonstrate your understanding of Operators,operands 
 
 #a and b are operands, while +, *, /, % are operators
 a = 5
-b = 3
+b = 6
 
 summation = a + b
 
