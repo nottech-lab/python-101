@@ -2,6 +2,7 @@
 Write a simple script to demonstrate your understanding of Variable,identifier and keywords
 '''
 # variables.
+
 string= "daudi mwanja" # assign value to variable string.
 
 int_num =10 # assign value to variable int_num.
@@ -17,4 +18,3 @@ print (int_num) # output integer '10' to screen.
 print(float_num) # output float '10.452' to screen. 
 
 print(boolean) # output boolean 'True' to screen.
-
