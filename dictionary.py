@@ -14,3 +14,5 @@ d['dictionary'] = 4
 #THe outputs for "hello 1", "python 2", "learners 3", "dictionary 4"
 for key in d:
     print(key, d[key])
+
+    

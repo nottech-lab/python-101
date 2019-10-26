@@ -14,3 +14,4 @@ while (count < 3 ):
 list = ["nottech ", "lab"]
 for index in range(len(list)):
     print list[index]
+

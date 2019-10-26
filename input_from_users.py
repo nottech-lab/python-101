@@ -18,3 +18,4 @@ a = input("Please enter value: ")
 print (a)
 
 #okay thats functions for user inputs
+
