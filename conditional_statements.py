@@ -1,40 +1,18 @@
-''' 
-Write a simple script that demonstrate your understanding of conditional statements 
-Simple If , if else , elif  
-'''
+# Does if line execute?    
+# let'see                    
 
-#code for all condition statement
+if 'food' in ['banana', 'yams', 'potato']:        #  yes this condition executes
+    print('Outer condition is true')      #  yes this condition executes
 
-print("You enter a dark room with two doors. Do you go through #1 or #2")
 
-door = raw_input(">")
+    if 10 > 20:   
+        print('Inner condition 1') #this one does not execute
 
-if door == "1":
-    print ("There is a giant bear here eating a cheese cake. What do you do?")
-    print ("1. Take the cake.")
-    print("2. Scream at the bear.")
-    
-    bear = raw_input(">")
-    
-    if bear == "1":
-        print("The bear eats your face off. Good job!")
-    elif bear == "2":
-        print("The bear eats your legs off. Good job!")
-    else:
-        print("Well, doig %s is probably better. Bear runs away." % bear)
-        
-elif door == "2":
-    print ("YOu stare into endless abyss at jedi retina.")
-    print ("1. Blueberries.")
-    print("2. Blue leather jackets")
-    print("3. Understanding python for future use.")
-    
-    insanity = raw_input(">")
-    
-    if insanity -- "1" or insanity == "2":
-        print("Your body survive powered by a mind of jello. Good job!")
-    else:
-        print("THe insanity rots your eyes into pools of muck. Good job!")
-else:
-    print("Yuo stumble and falls on a knife and die. Good job!")
-        
+    print('Between inner conditions')     #  yes it does executes
+
+    if 10 < 20:                           #  yes it does executes
+
+        print('Inner condition 2')        #  yes it does executes
+    print('End of outer condition')       #  yes it does executes
+
+print('After outer condition')   #yes it does execute

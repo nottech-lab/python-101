@@ -1,22 +1,25 @@
-'''
-Write a simple script to demonstrate your understanding of lists 
-'''
-#getting a directory listing
+#Lists in python can be creates by placing seqence inside the square brackets
 
-import os
-import os.path
-import glob
+#Okay lets create a certain list
 
-pyfiles = glob.glob('*.py')
+list = []
+print("initial blank list: ")
+print(list)
 
-#get file sizes and modification dates
-name_size_date = [(name, os.path.getsize(name), os.path.getmtime(name))
-                  for name in pyfiles]
+#Lets use String
+list = ['Python 101']
+print("\nList with the use of String: ")
+print(list)
 
-for name, size, mtime in name_size_date:
-    print(name, size, mtime)
-    
-#Another way: Get file metadata
-file_metadata = [(name, os.stat(name)) for name in pyfiles]
-for name, meta in file_metadata:
-    print(name, meta.ST_SIZE, meta.ST_MTIME)
+#Lets use multiple values
+list = ['Nottech', 'Lab', 'Python 101']
+print("\nList containing multiple values: ")
+print(list[0])
+print(list[2])
+
+#Lets create a list inside a certain list
+list = [['Nottech', 'Lab'], ['Arusha']]
+print("\nLists inside a certain list: ")
+print(list)
+
+#The end of List program 

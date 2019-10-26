@@ -1,24 +1,16 @@
-'''
-Write a simple script that would take input from user using keyboard 
-'''
-from sys import argv
+#there are two built in functions for inputs 
+# raw_input(prompt) and input(prompt)
 
-script, Adam = argv
-prompt = '>'
+#lets start with raw_input() function
+#okay lets start
 
-print "Hi %s I'm the %s script."% (Adam, script)
-print "I'd like to ask you few questions."
-print "Do you like me %s?" % Adam
-likes = raw_input(prompt)
+a = raw_input("Enter your name : ")
+print a
 
-print "Where do you live %s" % Adam
-lives = raw_input(prompt)
+# Let's finish our program with input() function
+#let's go
+ 
+a = input("Please enter value: ")
+print (a)
 
-print "What kind of computer do you have?"
-computer = raw_input(prompt)
-
-print """
-Alright, so you said %r about liking me.
-You live in %r, Not sure where that is. 
-And you have a %r computer. Nice.
-""" % (likes, lives, computer)
+#okay thats functions for user inputs

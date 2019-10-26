@@ -1,21 +1,12 @@
-'''
-Write a simple script that demonstrate your understanding of loops in python   
-'''
-#for loop with declared variables
-records = [
-    ('hello, 1 , 2'),
-    ('python', 'geeks'),
-    ('hello, 3, 4'),
-]
+#Hey there, Lets discuss about loops in python 
+#Lets start with while loop 
 
-def do_hello(x, y):
-    print('hello', x, y)
-    
-def do_python(s):
-    print("python", s)
-    
-for tag, args in records:
-    if tag == 'hello':
-        do_hello(*args)
-    elif tag == 'hello':
-        do_hello(*args)
+count = 0
+while (count < 3 ):
+    count = count + 1
+    print ("Hello world")
+
+#for loop in python
+list = ["nottech ", "lab"]
+for index in range(len(list)):
+    print list[index]

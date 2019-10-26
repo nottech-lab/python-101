@@ -1,6 +1,4 @@
-'''
-Write a simple script to demonstrate your understanding of Variable,identifier and keywords
-'''
+# Write a simple script to demonstrate your understanding of Variable,identifier and keywords
 my_name = ' Adams Simon'
 my_age = 53 #its a lie
 my_height = 6.2 #feet
