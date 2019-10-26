@@ -1,3 +1,7 @@
+'''	
+Write a simple script to demonstrate your understanding of lists 	
+''' 
+
 #Lists in python can be creates by placing seqence inside the square brackets
 
 #Okay lets create a certain list

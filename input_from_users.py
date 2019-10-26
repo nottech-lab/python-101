@@ -1,11 +1,15 @@
+'''
+Write a simple script that would take input from user using keyboard
+'''
+
 #there are two built in functions for inputs 
 # raw_input(prompt) and input(prompt)
 
 #lets start with raw_input() function
 #okay lets start
 
-a = raw_input("Enter your name : ")
-print a
+# g = raw_input("Enter your name : ") 
+# print g 
 
 # Let's finish our program with input() function
 #let's go

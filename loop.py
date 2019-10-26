@@ -1,3 +1,7 @@
+'''	
+Write a simple script that demonstrate your understanding of loops in python   	#Lets start with while loop 
+''' 
+
 #Hey there, Lets discuss about loops in python 
 #Lets start with while loop 
 

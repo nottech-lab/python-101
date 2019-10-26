@@ -1,6 +1,6 @@
-# '''
-# Write a simple script to demonstrate your understanding of tuples as data types 
-# '''
+'''
+Write a simple script to demonstrate your understanding of tuples as data types 
+'''
 
 #Lets create empty tuple
 empty_tuple = ()
