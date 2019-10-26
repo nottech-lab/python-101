@@ -1,6 +1,3 @@
-'''
-Write a simple script to demonstrate your understanding of strings 
-'''
 # Does if line execute?    
 # let'see                    
 
