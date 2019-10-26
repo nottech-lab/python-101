@@ -1,6 +1,6 @@
-'''
-Write a simple script to demonstrate your understanding of strings 
-'''
+# '''
+# Write a simple script to demonstrate your understanding of strings 
+# '''
 x = "There are %d types of people." % 10
 binary = "binary"
 do_not = "don't"
