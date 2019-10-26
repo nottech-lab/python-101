@@ -18,6 +18,7 @@ if 'food' in ['banana', 'yams', 'potato']:        #  yes this condition executes
     if 10 < 20:                           #  yes it does executes
 
         print('Inner condition 2')        #  yes it does executes
+        
     print('End of outer condition')       #  yes it does executes
 
 print('After outer condition')   #yes it does execute
