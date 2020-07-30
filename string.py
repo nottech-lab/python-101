@@ -13,7 +13,7 @@ print(string1,string2)
 
 val = 'Hello World!'
 
-print "Updated String :- ", val[:6] + 'welcome to Python!'
+print ("Updated String :- ", val[:6] + 'welcome to Python!')
 
 #capitalize
 
